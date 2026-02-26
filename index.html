@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO On-Page --> 
+    <title>Crowné Dental - Klinik Gigi Mahasiswa Terapi Gigi Unhas</title>
+    <meta name="description" content="Crowné Dental - Klinik gigi oleh mahasiswa Terapi Gigi Universitas Hasanuddin. Layanan pemeriksaan gratis, pembersihan karang gigi, behel, dan perawatan lengkap dengan harga terjangkau.">
+    <meta name="keywords" content="klinik gigi makassar, crowné dental, mahasiswa terapi gigi unhas, pemeriksaan gigi gratis, pembersihan karang gigi, behel, bleaching, cabut gigi, perawatan saluran akar">
+    <meta name="author" content="Tim Crowné Dental - Universitas Hasanuddin">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.crownedental.com">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Crowné Dental - Klinik Gigi Mahasiswa Unhas">
+    <meta property="og:description" content="Perawatan gigi profesional oleh mahasiswa Terapi Gigi Unhas. Gratis pemeriksaan untuk pasien baru.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=2070">
+    <meta property="og:url" content="https://www.crownedental.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Crowné Dental - Klinik Gigi Mahasiswa Unhas">
+    <meta name="twitter:description" content="Klinik gigi oleh mahasiswa Terapi Gigi Unhas. Layanan lengkap dengan harga terjangkau.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23003060'>🦷</text></svg>">
+    
+    <style>
+        /* Root variables */
+        :root {
+            --navy: #003060;
+            --navy-light: #104c7a;
+            --navy-dark: #002044;
+            --silver: #E8E9EB;
+            --silver-dark: #D1D3D6;
+            --silver-light: #F0F2F4;
+            --white: #FFFFFF;
+            --text-dark: #1E2F4D;
+            --text-light: #5A6B7A;
+            --accent: #4A90E2;
+            --shadow: 0 8px 24px rgba(0,48,96,0.08);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: var(--silver-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        /* Navbar Navy */
+        .navbar {
+            background: var(--navy);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 12px 0;
+            box-shadow: 0 4px 20px rgba(0,48,96,0.15);
+        }
+        
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .logo-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .logo-text h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--silver);
+            line-height: 1.2;
+        }
+        
+        .logo-text span {
+            color: var(--silver-dark);
+            font-size: 0.9rem;
+            display: block;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--silver);
+            font-weight: 500;
+            transition: all 0.2s;
+            padding: 6px 0;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .nav-links a:hover {
+            border-bottom-color: var(--silver);
+            opacity: 0.9;
+        }
+        
+        .btn-reservasi {
+            background: var(--silver);
+            color: var(--navy);
+            padding: 10px 28px;
+            border-radius: 40px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-reservasi:hover {
+            background: var(--silver-light);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0,48,96,0.2);
+        }
+        
+        .btn-reservasi i {
+            color: var(--navy);
+        }
+        
+        /* SLIDER - FOTO SLIDE DI BAGIAN ATAS */
+        .hero-slider {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            min-height: 600px;
+            overflow: hidden;
+        }
+        
+        .slide {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .slide.active {
+            opacity: 1;
+            z-index: 10;
+        }
+        
+        .slide-overlay {
+            background: linear-gradient(90deg, rgba(0,48,96,0.8) 0%, rgba(0,48,96,0.4) 100%);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .slide-content {
+            color: var(--white);
+            max-width: 650px;
+            margin-left: 10%;
+            animation: fadeInUp 1s ease;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .slide-content h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .slide-content p {
+            font-size: 1.3rem;
+            max-width: 500px;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+        
+        .slide-btn {
+            background: var(--silver);
+            color: var(--navy);
+            padding: 14px 32px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .slide-btn:hover {
+            background: var(--white);
+            transform: scale(1.05);
+        }
+        
+        .slider-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(8px);
+            border: 2px solid rgba(255,255,255,0.3);
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            font-size: 24px;
+            color: var(--white);
+            cursor: pointer;
+            z-index: 30;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .slider-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-50%) scale(1.1);
+        }
+        
+        .prev { left: 30px; }
+        .next { right: 30px; }
+        
+        .slider-dots {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 30;
+        }
+        
+        .dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.5);
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+        
+        .dot.active {
+            background: var(--silver);
+            transform: scale(1.2);
+            border-color: var(--white);
+        }
+        
+        /* Sections */
+        section {
+            margin: 80px 0;
+        }
+        
+        .section-title {
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: var(--navy);
+            margin-top: 12px;
+            border-radius: 4px;
+            opacity: 0.3;
+        }
+        
+        /* Description Box */
+        .desc-box {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 32px;
+            box-shadow: var(--shadow);
+            font-size: 1.15rem;
+            border: 1px solid var(--silver-dark);
+            transition: transform 0.3s;
+        }
+        
+        .desc-box:hover {
+            transform: translateY(-5px);
+        }
+        
+        .desc-box i {
+            color: var(--navy);
+            margin-right: 10px;
+            font-size: 1.4rem;
+        }
+        
+        /* Layanan Grid dengan Gambar */
+        .layanan-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+        }
+        
+        .layanan-card {
+            background: var(--white);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--silver-dark);
+            transition: all 0.3s;
+            cursor: default;
+        }
+        
+        .layanan-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--navy);
+            box-shadow: 0 12px 30px rgba(0,48,96,0.15);
+        }
+        
+        .layanan-image {
+            width: 100%;
+            height: 150px;
+            overflow: hidden;
+        }
+        
+        .layanan-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .layanan-card:hover .layanan-image img {
+            transform: scale(1.1);
+        }
+        
+        .layanan-card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--navy);
+            line-height: 1.4;
+            padding: 16px 12px 20px;
+            text-align: center;
+        }
+        
+        /* Jam Operasional */
+        .jam-operasional {
+            background: var(--white);
+            border-radius: 32px;
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--silver-dark);
+        }
+        
+        .jam-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .jam-item i {
+            font-size: 2.5rem;
+            color: var(--navy);
+        }
+        
+        .jam-item div p:first-child {
+            font-weight: 700;
+            color: var(--navy);
+            font-size: 1.2rem;
+        }
+        
+        .jam-item div p:last-child {
+            color: var(--text-light);
+        }
+        
+        /* Team Grid - 4 atas 4 bawah */
+        .team-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .team-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+        
+        .team-card {
+            background: var(--white);
+            border-radius: 32px;
+            padding: 28px 16px 20px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--silver-dark);
+            transition: all 0.3s;
+        }
+        
+        .team-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--navy);
+        }
+        
+        .team-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--silver);
+            margin-bottom: 18px;
+            background: var(--silver-dark);
+            transition: all 0.3s;
+        }
+        
+        .team-card:hover .team-img {
+            border-color: var(--navy);
+        }
+        
+        .team-name {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--navy);
+            margin-bottom: 4px;
+        }
+        
+        .team-role {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .group-name {
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 30px;
+            padding: 12px;
+            background: var(--white);
+            border-radius: 50px;
+            display: inline-block;
+            padding: 12px 40px;
+            border: 1px solid var(--silver-dark);
+        }
+        
+        /* Map */
+        .map-container {
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 400px;
+            border: 3px solid var(--white);
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        /* Google Form */
+        .google-form-box {
+            background: var(--white);
+            padding: 48px 32px;
+            border-radius: 32px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            border: 2px solid var(--navy);
+        }
+        
+        .btn-google-form {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--navy);
+            color: var(--silver);
+            font-weight: 700;
+            padding: 18px 42px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin: 25px 0 15px;
+            transition: all 0.3s;
+            border: 2px solid var(--navy);
+        }
+        
+        .btn-google-form:hover {
+            background: transparent;
+            color: var(--navy);
+        }
+        
+        .btn-google-form i {
+            font-size: 1.5rem;
+        }
+        
+        /* Booking Online Section */
+        .booking-online {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            border-radius: 40px;
+            padding: 60px 40px;
+            color: var(--white);
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .booking-online h3 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .booking-online p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+        
+        .booking-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin: 50px 0;
+        }
+        
+        .feature-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .feature-item i {
+            font-size: 2.5rem;
+            background: rgba(255,255,255,0.15);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .feature-item span {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .btn-booking {
+            background: var(--silver);
+            color: var(--navy);
+            padding: 18px 50px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.3rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.3s;
+            border: 2px solid var(--silver);
+            margin-top: 20px;
+        }
+        
+        .btn-booking:hover {
+            background: transparent;
+            color: var(--silver);
+        }
+        
+        /* Footer Navy */
+        footer {
+            background: var(--navy);
+            color: var(--silver);
+            padding: 50px 0 30px;
+            border-radius: 40px 40px 0 0;
+            margin-top: 100px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h4 {
+            color: var(--silver);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h4:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--silver);
+            opacity: 0.3;
+        }
+        
+        .footer-col p, .footer-col a {
+            color: var(--silver-dark);
+            text-decoration: none;
+            line-height: 2;
+            transition: color 0.2s;
+        }
+        
+        .footer-col a:hover {
+            color: var(--white);
+        }
+        
+        .footer-copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(232,233,235,0.2);
+            color: var(--silver-dark);
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 900px) {
+            .team-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .logo {
+                justify-content: center;
+            }
+            
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            
+            .slide-content h2 {
+                font-size: 2.5rem;
+            }
+            
+            .slider-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+            
+            .prev { left: 10px; }
+            .next { right: 10px; }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .jam-operasional {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+            
+            .booking-oneline h3 {
+                font-size: 2rem;
+            }
+            
+            .booking-features {
+                gap: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .team-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .slide-content h2 {
+                font-size: 2rem;
+            }
+            
+            .slide-content p {
+                font-size: 1rem;
+            }
+            
+            .btn-reservasi {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .booking-online {
+                padding: 40px 20px;
+            }
+            
+            .booking-online h3 {
+                font-size: 1.8rem;
+            }
+            
+        }
+        
+        /* Smooth scroll offset for fixed navbar */
+        html {
+            scroll-padding-top: 90px;
+        }
+
+        /* Placeholder style untuk gambar yang error */
+        .error-placeholder {
+            background: linear-gradient(135deg, #f0f2f4 0%, #d1d3d6 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #003060;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Navy dengan Logo Image -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-image">
+                    <!-- Ganti dengan file logo Anda dengan fallback -->
+                    <img src="image/logo.png" alt="Crowné Dental Logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'50\' height=\'50\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23003060\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23E8E9EB\'%3E🦷%3C/text%3E%3C/svg%3E'; this.classList.add('error-placeholder');">
+                </div>
+                <div class="logo-text">
+                    <h1>Crowné Dental</h1>
+                    <span>by Mahasiswa Terapi Gigi-Universitas Hasanuddin</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#tentang">Tentang</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#team">Team</a>
+                <a href="#reservasi">Reservasi</a>
+            </div>
+    
+             <!-- TOMBOL DENGAN LINK GOOGLE FORM -->
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnaUyUvU1tAd-XiR9e6dVQFYKG99BLIJLFTUFU-dZy_iGDwg/viewform?usp=header" target="_blank" class="btn-reservasi">
+                 <i class="fas fa-calendar-plus"></i> Booking Now
+             </a>
+        </div>
+    </nav>
+
+    <!-- HERO SLIDER - FOTO SLIDE DI BAGIAN ATAS (BERGANTI OTOMATIS) -->
+    <div class="hero-slider" id="home">
+        <!-- SLIDE 1 -->
+        <div class="slide active" style="background-image: url('image/gedung.jpg');">
+            <div class="slide-overlay">
+                <div class="slide-content">
+                    <h2>Crowné Dental</h2>
+                    <p>Klinik Gigi Profesional di Makassar</p>
+                    <a href="#tentang" class="slide-btn">
+                        <i class="fas fa-arrow-right"></i> Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 2 -->
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2070&auto=format&fit=crop');">
+            <div class="slide-overlay">
+                <div class="slide-content">
+                    <h2>Konsultasi Gratis</h2>
+                    <p>Yuk Periksa Gigi! Konsultasi & Check-Up Gratis untuk Kamu!</p> 
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnaUyUvU1tAd-XiR9e6dVQFYKG99BLIJLFTUFU-dZy_iGDwg/viewform?usp=header" target="_blank" class="slide-btn">
+                        <i class="fas fa-calendar-plus"></i> Reservasi
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 3 -->
+        <div class="slide" style="background-image: url('image/lobby.jpg');">
+            <div class="slide-overlay">
+                <div class="slide-content">
+                    <h2>Klinik Gigi Profesional</h2>
+                    <p>Perawatan gigi modern melalui pelayanan berkualitas dengan standar medis yang terpercaya</p>
+                    <a href="#team" class="slide-btn">
+                        <i class="fas fa-users"></i> Kenali Tim
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tombol Navigasi Slider -->
+        <button class="slider-btn prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+        
+        <!-- Dots Indicator -->
+        <div class="slider-dots" id="sliderDots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- Deskripsi Klinik -->
+        <section id="tentang">
+            <h2 class="section-title">Tentang Crowné Dental</h2>
+            <div class="desc-box">
+                <i class="fas fa-university"></i> <strong>Crowné Dental</strong> menghadirkan perawatan gigi berkualitas dengan sentuhan profesional dan standar medis terpercaya. Didukung dokter gigi spesialis berpengalaman serta dikelola oleh mahasiswa Terapi Gigi Universitas Hasanuddin (UNHAS), kami memadukan keahlian, edukasi, dan pelayanan yang aman serta nyaman dalam setiap senyuman anda
+                <br><br>
+                <i class="fas fa-star"></i> Seluruh perawatan kami dilakukan sesuai standar medis dan klinis yang ketat, di bawah pengawasan dosen serta dokter gigi spesialis berpengalaman. Didukung teknologi kedokteran gigi modern, kami menghadirkan pelayanan yang profesional, ramah, dan berorientasi penuh pada kenyamanan serta keamanan setiap pasien. Karena bagi kami, senyum sehat Anda adalah prioritas utama.
+                <br><br>
+                <i class="fas fa-hand-holding-heart"></i> <strong>Visi kami</strong> yaitu meningkatkan kesehatan gigi masyarakat Sulawesi Selatan melalui layanan berkualitas dengan biaya terjangkau, yang ditangani oleh tenaga kesehatan gigi profesional di bawah bimbingan para spesialis.
+            </div>
+        </section>
+
+        <!-- Layanan dengan Gambar -->
+        <section id="layanan">
+            <h2 class="section-title">Layanan Kami</h2>
+            <div class="layanan-grid">
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/pemeriksaan.jpeg" alt="Pemeriksaan Gigi Gratis oleh Crowné Dental" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Pemeriksaan Gigi Gratis</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/pembersihan.jpeg" alt="Pembersihan Karang Gigi Profesional" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Pembersihan Karang Gigi</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/pencabutan.jpeg" alt="Pencabutan Gigi Aman dan Nyaman" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Pencabutan Gigi</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/bleaching.jpeg" alt="Bleaching Pemutihan Gigi" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Bleaching / Pemutihan</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/behel.jpeg" alt="Pemasangan Behel Ortodonti" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Pemasangan Behel</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/penambalan.jpeg" alt="Penambalan Gigi Estetik" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Penambalan Gigi</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/psa.jpeg" alt="Perawatan Saluran Akar (PSA)" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Perawatan Saluran Akar (PSA)</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/gipal.jpeg" alt="Pemasangan Gigi Tiruan" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Pemasangan Gigi Tiruan</h3>
+                </div>
+                <div class="layanan-card">
+                    <div class="layanan-image">
+                        <img src="image/perawatan.jpeg" alt="Perawatan Gigi Anak" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'150\' viewBox=\'0 0 200 150\'%3E%3Crect width=\'200\' height=\'150\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'100\' y=\'85\' font-size=\'40\' text-anchor=\'middle\' fill=\'%23003060\'%3E🦷%3C/text%3E%3C/svg%3E';">
+                    </div>
+                    <h3>Perawatan Gigi Anak</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jam Operasional -->
+        <section>
+            <h2 class="section-title">Jam Operasional</h2>
+            <div class="jam-operasional">
+                <div class="jam-item">
+                    <i class="far fa-calendar-alt"></i>
+                    <div>
+                        <p>Senin - Jumat</p>
+                        <p>10.00 - 21.00 WITA</p>
+                    </div>
+                </div>
+                <div class="jam-item">
+                    <i class="far fa-calendar-check"></i>
+                    <div>
+                        <p>Sabtu - Minggu</p>
+                        <p>Reservasi (by appointment)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team - 4 baris atas dan 4 baris bawah -->
+        <section id="team">
+            <h2 class="section-title">Tim Crowné Dental</h2>
+            <div style="text-align: center; margin-bottom: 30px;">
+                <span class="group-name">Kelompok 4 - Terapi Gigi '24</span>
+            </div>
+            
+            <div class="team-container">
+                <!-- Baris 1 (4 anggota) -->
+                <div class="team-row">
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/farhaniaidil.jpeg" alt="Farhani Aidil - V066241065" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Farhani Aidil</div>
+                        <div class="team-role">V066241065</div>
+                    </div>
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/haerunnisah.jpeg" alt="Haerunnisah - V066241041" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Haerunnisah</div>
+                        <div class="team-role">V066241041</div>
+                    </div>
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/nurnabila.jpeg" alt="Nur Nabila - V066241007" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Nur Nabila</div>
+                        <div class="team-role">V066241007</div>
+                    </div>
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/rezkiamalia.jpeg" alt="Rezki Amalia - V066241027" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Rezki Amalia</div>
+                        <div class="team-role">V066241027</div>
+                    </div>
+                </div>
+                
+                <!-- Baris 2 (4 anggota) -->
+                <div class="team-row">
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/syilahsazkiah.jpeg" alt="Syilah Sazkiah - V066241050" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Syilah Sazkiah</div>
+                        <div class="team-role">V066241050</div>
+                    </div>
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/taskiaramadhani.jpeg" alt="Taskia Ramadhani - V066231011" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Taskia Ramadhani</div>
+                        <div class="team-role">V066231011</div>
+                    </div>
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/fitriamalia.jpeg" alt="Fitri Amalia - V066241008" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Fitri Amalia</div>
+                        <div class="team-role">V066241008</div>
+                    </div>
+                    <div class="team-card">
+                        <img class="team-img" src="image/uploads/asyrafilabrar.jpeg" alt="Asyrafil Abrar - V066241010" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'130\' height=\'130\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d1d3d6\'/%3E%3Ctext x=\'50\' y=\'70\' font-size=\'50\' text-anchor=\'middle\' fill=\'%23003060\'%3E👤%3C/text%3E%3C/svg%3E';">
+                        <div class="team-name">Asyrafil Abrar</div>
+                        <div class="team-role">V066241010</div>
+                    </div>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin-top: 20px; color: var(--text-light);">
+                <i class="fas fa-info-circle"></i> TelluCappa Crew
+            </p>
+        </section>
+
+        <!-- Google Maps -->
+        <section>
+            <h2 class="section-title">Lokasi Klinik</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.800646131934!2d119.48563367354917!3d-5.135777494841402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefd25d3ce366f%3A0x87dd21ab81631c3b!2sFakultas%20vokasi%20Universitas%20Hasanuddin!5e0!3m2!1sid!2sid!4v1772082304180!5m2!1sid!2sid" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Lokasi Crowné Dental di Fakultas Vokasi Universitas Hasanuddin">
+                </iframe>
+            </div>
+            <p style="text-align: center; margin-top: 12px; color: var(--text-light);">
+                <i class="fas fa-map-pin"></i> Jl. Perintis Kemerdekaan No.Km. 10, Tamalanrea Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan
+            </p>
+        </section>
+
+        <!-- TAMBAHAN BOOKING ONLINE SECTION -->
+        <section id="reservasi">
+            <div class="booking-online">
+                <h3>Booking Online 24/7</h3>
+                <p>Reservasi sekarang juga melalui website kami. Mudah, cepat, dan tanpa antri.</p>
+                
+                <div class="booking-features">
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Reservasi 24 Jam</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Pilih Jadwal</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-tooth"></i>
+                        <span>Pilih Layanan</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-bell"></i>
+                        <span>Notifikasi Otomatis</span>
+                    </div>
+                </div>
+                
+                <!-- TOMBOL DENGAN LINK GOOGLE FORM -->
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnaUyUvU1tAd-XiR9e6dVQFYKG99BLIJLFTUFU-dZy_iGDwg/viewform?usp=header" target="_blank" class="btn-booking">
+                    <i class="fas fa-calendar-plus"></i> Booking Online Sekarang
+                </a>
+                
+                <p style="margin-top: 30px; font-size: 1rem; opacity: 0.8;">
+                    <i class="fas fa-phone-alt"></i> Butuh bantuan? Hubungi: 0812-3456-7890
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Navy -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Crowné Dental</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Perintis Kemerdekaan No.Km. 10, Tamalanrea Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan 90245</p>
+                    <p><i class="fas fa-phone"></i> 0812-3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> crownedental@unhas.ac.id</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <p>Pemeriksaan Gratis</p>
+                    <p>Pembersihan Karang Gigi</p>
+                    <p>Pemasangan Behel</p>
+                    <p>Perawatan Anak</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Jam Operasional</h4>
+                    <p>Senin-Jumat: 10.00-21.00</p>
+                    <p>Sabtu-Minggu: Reservasi</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Sosial Media</h4>
+                    <p><i class="fab fa-instagram"></i> crownedental.unhas</p>
+                    <p><i class="fab fa-tiktok"></i> crownedental_unhas</p>
+                    <p><i class="fab fa-whatsapp"></i> 0812-3456-7890</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 Crowné Dental by Kelompok 4 Terapi Gigi Unhas. All rights reserved.
+                <br>
+                <span style="opacity: 0.6;">Mahasiswa Terapi Gigi-Universitas Hasanuddin</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript untuk Slider dan Validasi Gambar -->
+    <script>
+        // Slider functionality
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevSlide');
+        const nextBtn = document.getElementById('nextSlide');
+        const dots = document.querySelectorAll('.dot');
+        let currentIndex = 0;
+        const slideCount = slides.length;
+        let slideInterval;
+
+        // Fungsi untuk menampilkan slide berdasarkan index
+        function showSlide(index) {
+            // Loop jika index melebihi batas
+            if (index >= slideCount) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = slideCount - 1;
+            } else {
+                currentIndex = index;
+            }
+            
+            // Sembunyikan semua slide
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+            
+            // Non-aktifkan semua dot
+            dots.forEach(dot => {
+                dot.classList.remove('active');
+            });
+            
+            // Tampilkan slide yang aktif
+            slides[currentIndex].classList.add('active');
+            dots[currentIndex].classList.add('active');
+        }
+
+        // Next slide
+        function nextSlide() {
+            showSlide(currentIndex + 1);
+        }
+
+        // Previous slide
+        function prevSlide() {
+            showSlide(currentIndex - 1);
+        }
+
+        // Dot click function (dipanggil dari onclick di HTML)
+        window.currentSlide = function(index) {
+            showSlide(index);
+            // Reset interval saat dot diklik
+            clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+
+        // Event listeners untuk tombol
+        if (prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', function() {
+                prevSlide();
+                // Reset interval saat tombol diklik
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextSlide, 5000);
+            });
+            
+            nextBtn.addEventListener('click', function() {
+                nextSlide();
+                // Reset interval saat tombol diklik
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextSlide, 5000);
+            });
+        }
+
+        // Auto slide setiap 5 detik
+        slideInterval = setInterval(nextSlide, 5000);
+
+        // Pause interval saat mouse di atas slider (opsional)
+        const slider = document.querySelector('.hero-slider');
+        if (slider) {
+            slider.addEventListener('mouseenter', function() {
+                clearInterval(slideInterval);
+            });
+            
+            slider.addEventListener('mouseleave', function() {
+                slideInterval = setInterval(nextSlide, 5000);
+            });
+        }
+
+        // Validasi gambar - menampilkan pesan di console jika ada gambar yang error
+        window.addEventListener('load', function() {
+            const images = document.querySelectorAll('img');
+            let errorCount = 0;
+            
+            images.forEach(img => {
+                img.addEventListener('error', function() {
+                    console.warn('Gambar tidak ditemukan:', this.src);
+                    errorCount++;
+                });
+            });
+            
+            if (errorCount > 0) {
+                console.log(`Total ${errorCount} gambar tidak ditemukan. Placeholder telah ditampilkan.`);
+            }
+        });
+    </script>
+
+    <!-- Tambahan script untuk memastikan semua link berfungsi -->
+    <script>
+        // Smooth scroll untuk anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
